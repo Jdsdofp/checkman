@@ -1,0 +1,30 @@
+{
+  "name": "checkman",
+  "version": "1.0.0",
+  "description": "um projeto de controle de manutenção de maquinas e equipamentos",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "keywords": [
+    "app",
+    "manutencao",
+    "naz",
+    "glo"
+  ],
+  "author": "Jaderson / Marco",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

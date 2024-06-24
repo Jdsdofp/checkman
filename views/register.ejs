@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="/register" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+        </div>
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+    <div>
+        <a href="/login">Já tem uma conta? Faça login</a>
+    </div>
+</body>
+</html>
